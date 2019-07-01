@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>"Li Test Creation"</title>
+    </head>
+    <body>
+    <div id='root'>
+<li id='liid'>
+
+<ul id='ulid'></ul>
+
+</li>
+    </div>
+    <script>
+        const roothandle = document.getElementById('root');
+        const lihandle = document.getElementById('liid');
+        const ulhandle =document.getElementById('ulid')
+    for(var i=0;i<5;i++){
+        li = document.createElement('li');
+        li.textContent = "Hi"
+        ulhandle.appendChid(li);
+
+    }
+   
+    roothandle.appendChild(ulhandle);
+    
+    </script>
+    </body>
+</html>
